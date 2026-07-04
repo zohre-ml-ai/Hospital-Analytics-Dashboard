@@ -1,0 +1,501 @@
+patient_id,admission_date,discharge_date,department,doctor,age,gender,diagnosis,admission_type,insurance_type,revenue,cost,satisfaction_score,readmission_flag,death_flag
+1,2025-04-13,2025-04-17,Neurology,Dr_7,83,Male,Heart Failure,Routine,Social Security,1360,668,3.4,0,0
+2,2025-09-15,2025-09-23,Internal Medicine,Dr_1,76,Female,Infection,Emergency,Social Security,7449,2982,2.2,0,0
+3,2025-07-07,2025-07-21,Internal Medicine,Dr_20,64,Male,Heart Failure,Routine,Armed Forces,3234,2293,1.7,0,0
+4,2025-11-12,2025-11-26,Cardiology,Dr_2,84,Female,Stroke,Emergency,Social Security,8933,5294,4.3,0,0
+5,2025-02-19,2025-02-27,Orthopedics,Dr_10,4,Female,Fracture,Routine,Private,8055,4477,2.8,0,0
+6,2025-12-17,2025-12-25,ICU,Dr_8,85,Female,Fracture,Emergency,Social Security,8129,4048,3.3,1,0
+7,2025-02-10,2025-02-23,ICU,Dr_7,9,Female,Hypertension,Emergency,None,2562,1236,1.1,0,0
+8,2025-10-16,2025-10-27,Cardiology,Dr_9,28,Male,Hypertension,Routine,Private,6392,5517,1.4,0,0
+9,2025-10-20,2025-10-23,Surgery,Dr_3,65,Male,Fracture,Routine,Armed Forces,3231,2322,4.0,0,0
+10,2025-12-25,2026-01-05,Cardiology,Dr_10,77,Male,Hypertension,Emergency,None,4988,3767,3.8,0,0
+11,2025-05-23,2025-06-03,Surgery,Dr_19,86,Female,Diabetes,Routine,Private,5136,2641,3.5,0,0
+12,2025-02-13,2025-02-17,Internal Medicine,Dr_7,62,Male,Hypertension,Emergency,Private,5950,3344,1.0,0,0
+13,2025-07-17,2025-07-25,Neurology,Dr_1,51,Female,Stroke,Emergency,Armed Forces,6030,3670,2.3,0,0
+14,2025-04-23,2025-05-07,Orthopedics,Dr_7,2,Male,Hypertension,Emergency,None,7085,6243,1.1,0,0
+15,2025-02-23,2025-03-02,ICU,Dr_19,2,Male,Stroke,Routine,Private,8664,4960,2.0,0,0
+16,2025-05-03,2025-05-04,Neurology,Dr_20,70,Female,Heart Failure,Routine,None,9458,7581,4.3,0,0
+17,2025-12-15,2025-12-18,Internal Medicine,Dr_19,90,Male,Heart Failure,Emergency,Armed Forces,1159,652,1.7,0,0
+18,2025-12-04,2025-12-12,ICU,Dr_18,23,Male,Infection,Routine,Armed Forces,5236,3863,3.6,0,0
+19,2025-03-01,2025-03-02,Orthopedics,Dr_12,69,Male,Heart Failure,Emergency,Social Security,2549,2289,2.4,0,0
+20,2025-06-01,2025-06-07,Orthopedics,Dr_8,84,Female,Heart Failure,Routine,Social Security,2148,1032,3.7,0,0
+21,2025-12-04,2025-12-06,Neurology,Dr_9,33,Female,Hypertension,Routine,None,3369,2102,4.0,0,0
+22,2025-05-08,2025-05-09,Orthopedics,Dr_14,30,Female,Infection,Routine,Private,5055,3308,4.6,0,0
+23,2025-04-07,2025-04-19,Neurology,Dr_16,19,Female,Heart Failure,Routine,None,7522,4861,1.7,1,0
+24,2025-01-06,2025-01-09,ICU,Dr_14,53,Male,Heart Failure,Routine,None,1560,1348,2.2,0,0
+25,2025-09-13,2025-09-16,Cardiology,Dr_3,46,Female,Diabetes,Routine,Private,8819,5170,2.4,0,0
+26,2025-09-30,2025-10-08,Orthopedics,Dr_16,39,Male,Diabetes,Routine,Armed Forces,8596,4025,2.0,0,0
+27,2025-11-09,2025-11-13,Orthopedics,Dr_16,14,Female,Heart Failure,Emergency,None,5280,2624,3.3,0,0
+28,2025-02-20,2025-03-01,Neurology,Dr_17,52,Female,Infection,Emergency,Armed Forces,4269,2865,1.5,0,0
+29,2025-04-18,2025-04-23,Neurology,Dr_20,94,Male,Heart Failure,Routine,None,5722,2532,1.5,1,0
+30,2025-05-27,2025-05-28,Internal Medicine,Dr_5,90,Male,Infection,Routine,Social Security,8811,4717,3.8,0,0
+31,2025-08-27,2025-08-29,ICU,Dr_8,1,Female,Fracture,Routine,Armed Forces,8305,3711,2.7,0,0
+32,2025-06-03,2025-06-06,Orthopedics,Dr_5,47,Male,Infection,Routine,None,7753,3156,1.7,0,0
+33,2025-12-07,2025-12-14,Cardiology,Dr_10,69,Female,Diabetes,Emergency,Private,7921,4886,3.5,0,0
+34,2025-11-21,2025-12-04,Cardiology,Dr_17,92,Female,Heart Failure,Routine,None,5111,3618,2.6,0,0
+35,2025-06-28,2025-07-09,ICU,Dr_1,40,Female,Heart Failure,Emergency,Social Security,6232,4443,1.9,0,0
+36,2025-08-30,2025-09-02,Cardiology,Dr_2,7,Female,Diabetes,Routine,Social Security,9467,5611,4.7,0,0
+37,2025-09-06,2025-09-10,Surgery,Dr_17,36,Female,Hypertension,Routine,None,6488,5030,4.5,0,0
+38,2025-07-02,2025-07-15,ICU,Dr_17,62,Female,Hypertension,Emergency,Armed Forces,3414,1541,1.4,0,0
+39,2025-03-17,2025-03-26,Internal Medicine,Dr_19,16,Male,Fracture,Emergency,Social Security,3002,2636,3.2,0,0
+40,2025-05-24,2025-06-02,Cardiology,Dr_7,14,Male,Diabetes,Routine,Armed Forces,1562,696,3.2,0,0
+41,2025-01-09,2025-01-19,Neurology,Dr_6,7,Female,Fracture,Emergency,Social Security,1453,1030,4.3,0,0
+42,2025-06-14,2025-06-20,ICU,Dr_13,4,Female,Infection,Routine,Armed Forces,1865,1503,4.1,0,0
+43,2025-12-12,2025-12-15,Internal Medicine,Dr_20,92,Female,Fracture,Routine,Armed Forces,4768,1934,4.0,0,0
+44,2025-07-10,2025-07-22,Orthopedics,Dr_6,58,Female,Fracture,Routine,Social Security,8076,6737,2.3,0,0
+45,2025-09-09,2025-09-14,ICU,Dr_18,47,Male,Hypertension,Routine,Armed Forces,9942,7433,5.0,0,0
+46,2025-01-12,2025-01-22,Internal Medicine,Dr_8,92,Female,Diabetes,Routine,None,5563,3322,3.3,0,1
+47,2025-07-11,2025-07-22,ICU,Dr_20,77,Female,Fracture,Emergency,Armed Forces,7602,5078,4.3,1,0
+48,2025-10-30,2025-11-08,Cardiology,Dr_13,5,Male,Hypertension,Routine,Private,509,440,4.9,0,0
+49,2025-03-04,2025-03-13,ICU,Dr_13,33,Female,Hypertension,Routine,Social Security,4425,3604,1.1,0,0
+50,2025-07-16,2025-07-21,Neurology,Dr_5,74,Female,Heart Failure,Emergency,Private,6489,5558,1.8,0,0
+51,2025-09-17,2025-10-01,Cardiology,Dr_8,39,Female,Diabetes,Routine,Private,5044,3711,4.3,0,0
+52,2025-08-24,2025-08-29,ICU,Dr_16,47,Male,Fracture,Routine,Private,8401,6686,4.2,1,0
+53,2025-08-14,2025-08-20,Surgery,Dr_19,63,Female,Stroke,Routine,Social Security,6741,4842,4.1,0,0
+54,2025-02-20,2025-02-21,Cardiology,Dr_17,74,Male,Stroke,Emergency,Social Security,2680,2139,4.9,0,0
+55,2025-08-23,2025-09-03,Surgery,Dr_16,8,Female,Stroke,Emergency,Armed Forces,2406,1608,4.5,0,1
+56,2025-03-02,2025-03-12,Cardiology,Dr_10,61,Female,Fracture,Routine,Social Security,8070,6543,2.8,0,0
+57,2025-03-19,2025-03-29,ICU,Dr_15,56,Female,Heart Failure,Routine,Social Security,7740,3453,1.0,0,0
+58,2025-12-21,2026-01-03,Orthopedics,Dr_14,90,Female,Infection,Routine,Social Security,6311,3185,1.2,0,0
+59,2025-01-03,2025-01-10,Internal Medicine,Dr_13,18,Female,Infection,Routine,Armed Forces,3297,2554,1.4,0,0
+60,2025-02-08,2025-02-17,Cardiology,Dr_12,25,Male,Fracture,Routine,None,1796,908,2.4,0,0
+61,2025-08-16,2025-08-22,Internal Medicine,Dr_19,42,Male,Fracture,Routine,Private,8443,5853,3.4,0,0
+62,2025-08-17,2025-08-26,Orthopedics,Dr_6,4,Female,Heart Failure,Emergency,Private,1960,883,1.7,0,0
+63,2025-08-31,2025-09-08,Orthopedics,Dr_2,84,Female,Heart Failure,Routine,Private,4824,4299,4.9,0,0
+64,2025-03-03,2025-03-12,Cardiology,Dr_19,45,Female,Fracture,Emergency,Private,4789,3248,3.8,0,0
+65,2025-05-20,2025-05-21,Orthopedics,Dr_5,11,Male,Stroke,Emergency,Armed Forces,6733,5277,1.2,0,0
+66,2025-05-18,2025-05-30,Cardiology,Dr_20,65,Male,Fracture,Emergency,Social Security,7541,4231,3.4,0,0
+67,2025-04-04,2025-04-05,Internal Medicine,Dr_18,78,Male,Heart Failure,Routine,None,2104,1715,2.5,1,0
+68,2025-03-01,2025-03-14,Neurology,Dr_14,60,Female,Heart Failure,Emergency,Social Security,8507,6924,1.9,0,0
+69,2025-03-30,2025-04-12,Orthopedics,Dr_19,38,Male,Hypertension,Emergency,Social Security,1565,933,2.6,0,0
+70,2025-04-14,2025-04-17,Surgery,Dr_7,51,Female,Diabetes,Emergency,Armed Forces,2470,1520,4.5,0,0
+71,2025-06-06,2025-06-12,Surgery,Dr_1,68,Female,Diabetes,Routine,Armed Forces,1620,1220,4.0,0,0
+72,2025-10-30,2025-11-03,Neurology,Dr_8,5,Male,Stroke,Routine,Private,6859,4814,1.0,0,0
+73,2025-10-09,2025-10-20,Orthopedics,Dr_10,38,Female,Diabetes,Routine,None,2616,2127,4.6,0,0
+74,2025-04-21,2025-04-29,Internal Medicine,Dr_4,68,Male,Fracture,Routine,Private,1327,924,4.1,0,0
+75,2025-02-20,2025-03-05,ICU,Dr_14,21,Female,Infection,Emergency,Armed Forces,3868,3337,4.7,0,0
+76,2025-05-29,2025-06-07,Neurology,Dr_9,35,Male,Stroke,Routine,Armed Forces,8893,7127,4.7,0,0
+77,2025-12-13,2025-12-14,Internal Medicine,Dr_19,54,Female,Hypertension,Routine,Private,7283,3731,1.1,0,0
+78,2025-05-30,2025-06-09,ICU,Dr_20,49,Female,Infection,Routine,Armed Forces,6088,4003,5.0,0,0
+79,2025-05-21,2025-06-04,Surgery,Dr_17,45,Male,Infection,Routine,Armed Forces,2982,1505,1.3,0,0
+80,2025-07-13,2025-07-19,Orthopedics,Dr_6,51,Male,Stroke,Emergency,Social Security,5583,3576,1.3,0,0
+81,2025-06-11,2025-06-23,Cardiology,Dr_7,93,Female,Hypertension,Routine,Armed Forces,554,264,1.9,0,0
+82,2025-02-23,2025-03-04,Surgery,Dr_1,92,Male,Diabetes,Routine,None,3810,2608,3.9,0,0
+83,2025-06-14,2025-06-20,Cardiology,Dr_7,74,Male,Hypertension,Emergency,Armed Forces,7112,4289,1.5,0,0
+84,2025-03-23,2025-03-25,Cardiology,Dr_2,67,Male,Stroke,Routine,Social Security,7352,4197,2.6,0,0
+85,2025-12-21,2025-12-25,Cardiology,Dr_14,87,Female,Hypertension,Routine,Social Security,1887,886,2.1,0,0
+86,2025-12-25,2026-01-03,Orthopedics,Dr_4,26,Female,Fracture,Emergency,Armed Forces,6377,4607,3.7,0,0
+87,2025-02-11,2025-02-15,ICU,Dr_5,25,Female,Diabetes,Routine,Social Security,8732,4689,1.0,0,0
+88,2025-05-14,2025-05-25,Neurology,Dr_7,10,Male,Hypertension,Routine,None,4763,2502,4.1,0,0
+89,2025-11-06,2025-11-17,Surgery,Dr_11,40,Male,Stroke,Routine,Armed Forces,3366,1498,3.4,1,0
+90,2025-06-01,2025-06-07,Cardiology,Dr_4,20,Male,Heart Failure,Routine,Social Security,6712,4308,3.0,0,0
+91,2025-06-03,2025-06-05,ICU,Dr_1,89,Male,Heart Failure,Routine,Social Security,2024,1158,2.0,0,0
+92,2025-06-21,2025-06-24,Internal Medicine,Dr_19,44,Male,Heart Failure,Routine,Social Security,4049,1630,4.8,0,0
+93,2025-11-14,2025-11-22,Neurology,Dr_17,87,Male,Infection,Routine,None,838,642,2.0,0,0
+94,2025-12-31,2026-01-10,ICU,Dr_7,14,Male,Fracture,Routine,Armed Forces,8738,3688,4.7,1,0
+95,2025-03-23,2025-04-06,Cardiology,Dr_10,17,Female,Heart Failure,Routine,Social Security,2919,2400,1.3,0,0
+96,2025-07-02,2025-07-09,ICU,Dr_4,93,Female,Hypertension,Routine,Social Security,8730,4868,4.5,0,0
+97,2025-11-07,2025-11-10,Surgery,Dr_13,13,Female,Heart Failure,Emergency,Private,3741,3348,2.4,0,0
+98,2025-09-02,2025-09-14,ICU,Dr_10,30,Male,Stroke,Routine,Private,771,645,1.0,0,0
+99,2025-11-20,2025-11-22,ICU,Dr_14,79,Male,Hypertension,Routine,None,4888,2058,1.9,1,0
+100,2025-07-17,2025-07-24,Surgery,Dr_13,25,Male,Stroke,Emergency,None,7986,6966,4.8,0,0
+101,2025-11-26,2025-12-07,ICU,Dr_3,6,Male,Fracture,Routine,Armed Forces,1324,675,4.5,1,1
+102,2025-03-02,2025-03-13,Cardiology,Dr_17,88,Male,Heart Failure,Emergency,None,8157,5364,4.0,0,0
+103,2025-12-23,2025-12-25,Surgery,Dr_9,67,Male,Diabetes,Routine,Social Security,1790,1501,2.3,1,0
+104,2025-08-14,2025-08-22,Surgery,Dr_5,48,Female,Diabetes,Emergency,None,7791,4568,1.4,0,1
+105,2025-04-24,2025-05-02,Cardiology,Dr_3,56,Female,Diabetes,Routine,Social Security,817,568,2.1,0,0
+106,2025-06-17,2025-06-29,Neurology,Dr_10,63,Male,Infection,Emergency,Social Security,2204,1249,4.5,0,0
+107,2025-01-23,2025-02-02,Neurology,Dr_7,31,Female,Stroke,Routine,Social Security,8061,6529,3.0,0,0
+108,2025-02-15,2025-02-26,Cardiology,Dr_13,35,Female,Infection,Emergency,Armed Forces,1636,1112,3.2,1,0
+109,2025-03-01,2025-03-15,Internal Medicine,Dr_4,68,Male,Hypertension,Routine,Social Security,5584,4435,3.3,0,0
+110,2025-07-29,2025-07-31,Neurology,Dr_12,36,Male,Heart Failure,Routine,None,7937,7038,1.1,0,0
+111,2025-03-20,2025-03-23,Surgery,Dr_13,39,Male,Fracture,Routine,None,3856,3363,4.4,0,0
+112,2025-01-27,2025-01-30,Internal Medicine,Dr_15,80,Male,Heart Failure,Routine,Armed Forces,3396,2993,2.1,1,0
+113,2025-01-15,2025-01-17,ICU,Dr_12,18,Male,Stroke,Routine,None,2480,1240,1.6,0,0
+114,2025-01-08,2025-01-19,Surgery,Dr_12,53,Female,Stroke,Routine,None,4133,3225,4.2,0,0
+115,2025-09-30,2025-10-14,Orthopedics,Dr_16,60,Male,Infection,Routine,Social Security,2375,1460,3.4,0,1
+116,2025-07-28,2025-08-05,Cardiology,Dr_14,38,Female,Heart Failure,Routine,Social Security,8965,6636,4.8,1,0
+117,2025-06-28,2025-07-06,Orthopedics,Dr_20,33,Female,Diabetes,Emergency,Private,7231,6459,3.1,0,0
+118,2025-03-18,2025-03-22,Cardiology,Dr_6,90,Female,Diabetes,Routine,Private,8333,4986,1.2,0,0
+119,2025-11-13,2025-11-16,Orthopedics,Dr_9,32,Male,Diabetes,Routine,None,1134,471,3.9,0,0
+120,2025-09-08,2025-09-15,Internal Medicine,Dr_6,58,Female,Diabetes,Routine,Armed Forces,958,811,3.1,0,0
+121,2025-01-12,2025-01-19,Cardiology,Dr_19,55,Female,Stroke,Routine,Social Security,2060,1721,4.2,0,0
+122,2025-03-23,2025-03-29,Neurology,Dr_9,59,Male,Stroke,Emergency,Armed Forces,7557,5491,1.9,0,0
+123,2025-11-28,2025-11-29,Cardiology,Dr_20,37,Female,Stroke,Routine,None,7505,6607,3.0,0,0
+124,2025-04-15,2025-04-19,Internal Medicine,Dr_2,79,Female,Stroke,Routine,Private,9965,7599,5.0,0,0
+125,2025-05-11,2025-05-24,ICU,Dr_3,26,Female,Stroke,Routine,Armed Forces,1029,736,3.5,0,0
+126,2025-10-20,2025-10-25,Internal Medicine,Dr_15,14,Female,Hypertension,Routine,Armed Forces,5148,2695,1.7,0,0
+127,2025-03-07,2025-03-10,ICU,Dr_8,76,Female,Stroke,Routine,Armed Forces,9944,4022,1.9,0,0
+128,2025-03-21,2025-03-31,Orthopedics,Dr_9,1,Male,Stroke,Routine,None,6224,3538,3.8,0,0
+129,2025-05-01,2025-05-12,Internal Medicine,Dr_5,49,Male,Stroke,Routine,Armed Forces,6552,3789,4.5,0,0
+130,2025-11-30,2025-12-02,Internal Medicine,Dr_1,35,Female,Fracture,Routine,Social Security,1468,977,1.4,0,0
+131,2025-10-03,2025-10-08,Surgery,Dr_2,89,Female,Fracture,Routine,Armed Forces,2789,2461,2.0,0,0
+132,2025-10-21,2025-10-25,Neurology,Dr_20,80,Female,Diabetes,Routine,None,6794,2819,4.9,0,0
+133,2025-12-18,2025-12-24,Cardiology,Dr_1,55,Male,Diabetes,Routine,Private,5112,4507,3.0,0,0
+134,2025-08-20,2025-08-21,Orthopedics,Dr_4,33,Male,Heart Failure,Routine,Private,1486,1286,2.6,0,0
+135,2025-08-08,2025-08-10,ICU,Dr_1,41,Male,Fracture,Routine,Social Security,5605,3937,2.2,0,0
+136,2025-04-12,2025-04-26,Orthopedics,Dr_2,82,Male,Hypertension,Emergency,Social Security,2167,1590,4.3,0,0
+137,2025-03-30,2025-04-04,Cardiology,Dr_7,15,Male,Heart Failure,Routine,Social Security,4226,3022,3.4,0,0
+138,2025-04-12,2025-04-22,Orthopedics,Dr_10,66,Female,Hypertension,Routine,Private,7510,3636,4.8,0,0
+139,2025-08-09,2025-08-19,Cardiology,Dr_16,37,Male,Stroke,Routine,Armed Forces,5260,3103,4.1,0,0
+140,2025-01-21,2025-01-28,Neurology,Dr_15,25,Female,Heart Failure,Routine,None,9706,8234,4.7,0,0
+141,2025-02-21,2025-03-07,Internal Medicine,Dr_3,8,Female,Diabetes,Routine,Private,4110,3554,2.6,1,0
+142,2025-12-16,2025-12-27,Cardiology,Dr_7,13,Male,Hypertension,Routine,Private,1786,1322,4.7,0,0
+143,2025-11-06,2025-11-07,Cardiology,Dr_15,13,Male,Infection,Routine,Private,5791,2442,3.4,0,0
+144,2025-05-01,2025-05-14,Cardiology,Dr_5,68,Female,Heart Failure,Routine,Armed Forces,6795,3918,3.7,0,0
+145,2025-08-30,2025-09-04,ICU,Dr_17,22,Female,Fracture,Routine,None,982,819,1.8,0,0
+146,2025-03-18,2025-03-31,Cardiology,Dr_3,7,Male,Diabetes,Routine,Private,9132,5921,2.8,0,0
+147,2025-10-07,2025-10-19,Cardiology,Dr_6,42,Female,Fracture,Emergency,None,2849,1287,3.6,0,0
+148,2025-12-19,2025-12-30,Internal Medicine,Dr_13,49,Female,Diabetes,Routine,None,5689,3285,1.9,0,0
+149,2025-02-19,2025-02-22,Surgery,Dr_6,2,Male,Stroke,Routine,Social Security,8479,4766,5.0,0,0
+150,2025-05-30,2025-06-11,Cardiology,Dr_16,12,Male,Stroke,Routine,Armed Forces,3874,1938,4.7,0,0
+151,2025-04-14,2025-04-20,Internal Medicine,Dr_1,30,Male,Stroke,Routine,Private,6599,5698,4.2,0,0
+152,2025-02-07,2025-02-11,Internal Medicine,Dr_1,23,Female,Fracture,Routine,Social Security,3285,1417,2.4,0,0
+153,2025-11-19,2025-11-23,Cardiology,Dr_6,35,Female,Heart Failure,Routine,None,8074,7034,4.4,0,0
+154,2025-02-11,2025-02-17,Orthopedics,Dr_10,30,Female,Infection,Emergency,Armed Forces,9285,6629,2.2,0,0
+155,2025-03-07,2025-03-18,Orthopedics,Dr_20,82,Female,Diabetes,Routine,Social Security,4725,2418,2.9,0,0
+156,2025-11-17,2025-12-01,Internal Medicine,Dr_3,41,Female,Hypertension,Routine,Private,5417,4413,1.3,0,0
+157,2025-03-09,2025-03-22,Internal Medicine,Dr_13,31,Female,Stroke,Routine,None,7679,6779,4.4,0,0
+158,2025-05-10,2025-05-22,Neurology,Dr_19,34,Female,Hypertension,Emergency,Armed Forces,7110,4217,4.0,0,0
+159,2025-03-24,2025-04-02,Orthopedics,Dr_19,7,Female,Stroke,Routine,None,5948,4706,5.0,0,0
+160,2025-11-04,2025-11-17,Orthopedics,Dr_7,50,Male,Fracture,Routine,Private,9511,6922,3.6,0,0
+161,2025-01-14,2025-01-21,Orthopedics,Dr_2,62,Male,Fracture,Emergency,Armed Forces,6640,5210,3.3,0,0
+162,2025-03-06,2025-03-19,Neurology,Dr_18,45,Female,Stroke,Routine,Social Security,6856,5602,3.2,0,0
+163,2025-07-02,2025-07-07,Cardiology,Dr_20,82,Female,Heart Failure,Routine,None,8461,3922,4.4,0,0
+164,2025-04-23,2025-05-02,ICU,Dr_1,2,Female,Fracture,Emergency,Private,516,376,1.2,1,0
+165,2025-07-22,2025-07-29,ICU,Dr_15,17,Female,Fracture,Emergency,None,1275,1080,5.0,0,0
+166,2025-07-19,2025-07-28,Surgery,Dr_17,5,Female,Fracture,Routine,Armed Forces,3956,1724,2.2,0,0
+167,2025-01-28,2025-01-31,Cardiology,Dr_6,92,Male,Hypertension,Routine,Armed Forces,9464,6910,1.8,0,0
+168,2025-03-19,2025-03-28,Cardiology,Dr_10,21,Female,Stroke,Routine,Private,9069,5796,3.4,0,0
+169,2025-10-15,2025-10-27,ICU,Dr_8,18,Male,Hypertension,Routine,Armed Forces,9214,3887,3.2,0,0
+170,2025-08-01,2025-08-13,Neurology,Dr_3,32,Female,Hypertension,Emergency,Armed Forces,1185,481,2.0,0,0
+171,2025-10-29,2025-11-06,Internal Medicine,Dr_11,86,Female,Heart Failure,Emergency,None,6881,5423,1.2,0,0
+172,2025-10-10,2025-10-12,Internal Medicine,Dr_13,22,Male,Fracture,Routine,None,4582,2177,3.4,0,0
+173,2025-01-30,2025-02-06,Neurology,Dr_15,8,Female,Diabetes,Emergency,Social Security,6751,4848,4.0,0,0
+174,2025-08-12,2025-08-22,Cardiology,Dr_14,91,Male,Diabetes,Routine,Social Security,8533,4283,3.2,0,0
+175,2025-11-10,2025-11-16,Orthopedics,Dr_2,53,Male,Stroke,Emergency,Armed Forces,3583,2769,4.4,0,0
+176,2025-07-05,2025-07-09,Orthopedics,Dr_3,26,Male,Infection,Routine,None,5751,4376,1.7,0,0
+177,2025-07-07,2025-07-16,Internal Medicine,Dr_14,3,Female,Fracture,Routine,Armed Forces,5536,2471,3.8,0,0
+178,2025-06-07,2025-06-09,Orthopedics,Dr_13,76,Female,Diabetes,Routine,Armed Forces,3890,1705,4.3,0,0
+179,2025-12-16,2025-12-23,Cardiology,Dr_20,92,Male,Heart Failure,Routine,Private,6756,4168,3.6,0,0
+180,2025-08-28,2025-09-08,Orthopedics,Dr_11,9,Female,Fracture,Emergency,Social Security,9090,5499,4.9,0,0
+181,2025-12-16,2025-12-30,Neurology,Dr_19,19,Female,Heart Failure,Routine,Armed Forces,3257,2146,2.5,0,0
+182,2025-03-15,2025-03-20,Cardiology,Dr_3,1,Female,Hypertension,Emergency,Social Security,3831,1627,1.6,0,0
+183,2025-01-31,2025-02-04,Internal Medicine,Dr_10,30,Female,Stroke,Emergency,Armed Forces,7368,3201,4.6,0,0
+184,2025-07-01,2025-07-11,Internal Medicine,Dr_9,45,Female,Heart Failure,Emergency,Private,8396,6619,3.2,0,0
+185,2025-01-07,2025-01-13,Internal Medicine,Dr_15,48,Male,Fracture,Emergency,None,1171,857,4.2,0,0
+186,2025-01-21,2025-01-23,ICU,Dr_19,89,Male,Stroke,Emergency,Social Security,4170,2081,1.1,0,0
+187,2025-11-23,2025-11-29,Neurology,Dr_2,28,Female,Heart Failure,Emergency,Private,3562,2395,3.2,0,0
+188,2025-04-08,2025-04-09,ICU,Dr_2,74,Female,Heart Failure,Routine,Private,2037,1491,2.2,0,0
+189,2025-02-28,2025-03-10,ICU,Dr_7,21,Female,Diabetes,Emergency,Private,1110,472,4.0,0,0
+190,2025-03-20,2025-03-26,ICU,Dr_8,58,Female,Diabetes,Routine,Private,1281,665,1.3,0,0
+191,2025-04-07,2025-04-17,Internal Medicine,Dr_18,43,Male,Fracture,Routine,None,9703,7754,1.7,0,0
+192,2025-10-24,2025-10-28,ICU,Dr_15,15,Female,Infection,Routine,Private,9176,6581,2.8,0,0
+193,2025-12-02,2025-12-05,Surgery,Dr_8,33,Female,Hypertension,Emergency,None,758,643,4.6,0,0
+194,2025-09-17,2025-10-01,ICU,Dr_12,11,Female,Hypertension,Routine,Armed Forces,7009,3096,1.5,0,0
+195,2025-04-12,2025-04-22,Neurology,Dr_3,68,Male,Stroke,Routine,Private,8938,4155,2.5,1,0
+196,2025-09-22,2025-09-26,Internal Medicine,Dr_11,66,Male,Stroke,Routine,Social Security,1145,864,2.0,0,0
+197,2025-10-13,2025-10-23,Cardiology,Dr_1,85,Male,Stroke,Routine,Armed Forces,4579,3461,2.8,0,0
+198,2025-06-25,2025-07-01,Surgery,Dr_15,91,Male,Hypertension,Emergency,None,6916,5676,1.4,0,0
+199,2025-02-16,2025-02-23,ICU,Dr_8,87,Female,Heart Failure,Routine,Social Security,6844,4979,1.9,0,0
+200,2025-11-09,2025-11-14,Orthopedics,Dr_4,76,Male,Hypertension,Routine,Social Security,1448,1052,4.6,0,0
+201,2025-08-07,2025-08-14,Orthopedics,Dr_6,14,Female,Fracture,Routine,Armed Forces,4174,2483,2.7,0,0
+202,2025-10-08,2025-10-16,Orthopedics,Dr_16,83,Female,Heart Failure,Routine,Armed Forces,7499,3101,4.2,0,0
+203,2025-03-04,2025-03-13,Internal Medicine,Dr_14,38,Male,Fracture,Emergency,Social Security,2031,1457,2.0,0,0
+204,2025-03-30,2025-04-13,Orthopedics,Dr_9,68,Male,Stroke,Routine,Private,2262,1160,3.7,0,0
+205,2025-05-07,2025-05-14,ICU,Dr_16,30,Female,Heart Failure,Emergency,Private,7683,3993,4.4,0,0
+206,2025-10-03,2025-10-08,Neurology,Dr_9,61,Male,Stroke,Routine,Private,8351,3820,4.5,0,0
+207,2025-11-28,2025-12-04,ICU,Dr_19,26,Female,Fracture,Emergency,Social Security,6817,5364,3.5,0,0
+208,2025-05-12,2025-05-19,Internal Medicine,Dr_12,45,Male,Infection,Emergency,None,1978,921,3.4,0,0
+209,2025-03-28,2025-04-03,Cardiology,Dr_17,61,Female,Infection,Emergency,None,7929,6705,2.0,0,0
+210,2025-04-19,2025-04-20,Neurology,Dr_20,56,Male,Fracture,Routine,Social Security,8833,6230,1.0,0,0
+211,2025-12-19,2025-12-29,Orthopedics,Dr_10,54,Female,Hypertension,Routine,Social Security,840,520,2.1,0,0
+212,2025-02-28,2025-03-07,Neurology,Dr_11,19,Male,Fracture,Routine,Social Security,682,570,2.6,0,0
+213,2025-04-19,2025-05-01,Neurology,Dr_7,92,Female,Fracture,Emergency,Armed Forces,7088,3931,1.0,0,0
+214,2025-06-26,2025-06-30,Internal Medicine,Dr_1,36,Female,Fracture,Emergency,None,7493,3958,3.2,1,0
+215,2025-08-31,2025-09-09,ICU,Dr_10,66,Male,Heart Failure,Routine,Private,6389,4691,3.5,1,0
+216,2025-01-28,2025-01-31,Neurology,Dr_2,93,Female,Heart Failure,Routine,None,3655,2627,4.3,0,0
+217,2025-08-23,2025-08-24,Neurology,Dr_17,25,Male,Hypertension,Emergency,Social Security,8480,5085,3.8,0,0
+218,2025-03-14,2025-03-19,Surgery,Dr_3,28,Female,Hypertension,Routine,None,3759,1928,4.6,0,0
+219,2025-04-28,2025-05-02,Cardiology,Dr_5,7,Female,Fracture,Routine,Social Security,4500,2983,4.8,0,0
+220,2025-05-06,2025-05-17,Cardiology,Dr_16,56,Female,Infection,Routine,None,2329,1918,1.7,1,0
+221,2025-12-10,2025-12-21,Cardiology,Dr_14,64,Male,Diabetes,Routine,Private,6718,3143,4.0,0,0
+222,2025-05-02,2025-05-15,Neurology,Dr_3,87,Female,Stroke,Routine,Social Security,6168,5415,4.9,0,0
+223,2025-04-19,2025-04-25,Neurology,Dr_2,86,Male,Heart Failure,Routine,Armed Forces,3736,2387,2.2,0,0
+224,2025-12-07,2025-12-21,Internal Medicine,Dr_11,68,Male,Hypertension,Routine,None,882,471,5.0,0,0
+225,2025-09-30,2025-10-03,Orthopedics,Dr_19,37,Male,Fracture,Emergency,Social Security,4335,2385,2.9,0,0
+226,2025-03-05,2025-03-16,Orthopedics,Dr_13,47,Female,Infection,Emergency,Armed Forces,1640,1147,3.2,0,0
+227,2025-02-15,2025-02-25,Internal Medicine,Dr_12,52,Female,Infection,Routine,Private,1382,872,3.0,0,0
+228,2025-07-22,2025-07-31,Surgery,Dr_14,91,Female,Stroke,Routine,Armed Forces,7142,4918,3.4,0,0
+229,2025-11-25,2025-12-03,ICU,Dr_17,72,Male,Infection,Emergency,Social Security,615,246,3.0,0,0
+230,2025-07-27,2025-07-29,Surgery,Dr_3,54,Female,Diabetes,Routine,Social Security,4617,3434,2.4,0,0
+231,2025-07-03,2025-07-17,Surgery,Dr_19,8,Female,Hypertension,Emergency,Private,4652,3706,1.1,0,0
+232,2025-01-01,2025-01-06,Neurology,Dr_9,1,Female,Heart Failure,Routine,None,4736,3678,2.6,0,0
+233,2025-09-17,2025-10-01,Surgery,Dr_8,3,Female,Stroke,Routine,None,2514,1088,1.3,1,0
+234,2025-01-16,2025-01-18,Cardiology,Dr_16,60,Female,Diabetes,Routine,None,6276,4081,2.2,0,0
+235,2025-08-03,2025-08-17,Surgery,Dr_7,53,Male,Hypertension,Routine,Private,5227,3149,4.9,0,0
+236,2025-11-09,2025-11-18,Orthopedics,Dr_10,10,Female,Infection,Emergency,None,682,444,3.1,0,0
+237,2025-02-22,2025-03-02,Surgery,Dr_8,82,Female,Infection,Routine,None,7346,3378,3.5,0,0
+238,2025-03-20,2025-03-29,Neurology,Dr_18,86,Female,Hypertension,Emergency,Private,5586,2762,2.9,0,0
+239,2025-11-16,2025-11-29,ICU,Dr_11,19,Male,Heart Failure,Routine,None,9359,4220,4.2,0,0
+240,2025-06-26,2025-07-02,ICU,Dr_1,60,Male,Hypertension,Routine,Private,6591,4861,1.6,0,0
+241,2025-04-11,2025-04-12,ICU,Dr_4,47,Male,Infection,Emergency,None,4107,3205,4.1,0,0
+242,2025-04-11,2025-04-17,ICU,Dr_3,47,Female,Diabetes,Routine,Armed Forces,5923,3509,2.5,0,0
+243,2025-07-29,2025-08-03,Cardiology,Dr_16,9,Male,Infection,Routine,None,9088,5524,3.6,0,0
+244,2025-08-25,2025-08-27,Internal Medicine,Dr_18,3,Female,Infection,Routine,Social Security,4476,2096,3.7,0,0
+245,2025-01-21,2025-02-02,ICU,Dr_17,54,Female,Fracture,Emergency,Social Security,734,428,3.8,0,0
+246,2025-09-15,2025-09-21,Cardiology,Dr_3,25,Male,Infection,Routine,Private,8516,3935,2.1,0,0
+247,2025-07-07,2025-07-17,ICU,Dr_8,92,Female,Stroke,Emergency,Social Security,4423,2775,1.3,0,0
+248,2025-05-14,2025-05-21,ICU,Dr_1,55,Female,Stroke,Routine,None,4563,2582,1.0,0,0
+249,2025-05-15,2025-05-19,Surgery,Dr_8,87,Male,Fracture,Routine,None,4902,2018,4.6,0,0
+250,2025-08-14,2025-08-26,Internal Medicine,Dr_4,90,Female,Hypertension,Emergency,None,3776,2921,5.0,0,0
+251,2025-01-28,2025-02-03,Cardiology,Dr_12,71,Female,Hypertension,Routine,Private,732,367,2.3,0,1
+252,2025-12-26,2025-12-30,Surgery,Dr_11,65,Male,Stroke,Emergency,Private,5602,2699,2.9,0,0
+253,2025-08-30,2025-09-09,Surgery,Dr_1,50,Female,Heart Failure,Routine,None,8263,5911,3.0,0,0
+254,2025-10-21,2025-11-04,Orthopedics,Dr_10,46,Male,Infection,Routine,Private,3145,2454,2.8,0,0
+255,2025-06-10,2025-06-11,Surgery,Dr_12,70,Male,Stroke,Routine,None,6974,5555,2.6,1,0
+256,2025-11-28,2025-12-09,Surgery,Dr_6,82,Female,Infection,Emergency,Armed Forces,9048,5596,3.9,0,0
+257,2025-10-26,2025-10-31,Neurology,Dr_10,8,Female,Stroke,Emergency,Social Security,3395,3016,2.8,0,0
+258,2025-08-30,2025-09-05,ICU,Dr_5,74,Female,Fracture,Routine,None,6736,4374,1.9,0,0
+259,2025-09-09,2025-09-17,Surgery,Dr_5,27,Male,Fracture,Routine,Social Security,2869,1885,1.0,1,0
+260,2025-09-04,2025-09-15,ICU,Dr_7,67,Female,Stroke,Routine,Armed Forces,7189,6445,1.2,0,0
+261,2025-01-17,2025-01-19,Neurology,Dr_18,68,Male,Diabetes,Routine,Private,8807,5223,4.7,0,0
+262,2025-07-22,2025-07-31,ICU,Dr_17,22,Female,Fracture,Emergency,None,4700,2417,3.3,0,0
+263,2025-04-09,2025-04-21,Cardiology,Dr_8,5,Male,Infection,Routine,Private,1632,940,4.6,0,0
+264,2025-02-10,2025-02-13,Orthopedics,Dr_4,15,Male,Fracture,Routine,Armed Forces,1114,463,4.2,0,0
+265,2025-01-24,2025-02-01,ICU,Dr_17,87,Male,Stroke,Routine,Social Security,3575,1700,2.6,0,0
+266,2025-09-06,2025-09-18,Cardiology,Dr_8,7,Male,Infection,Emergency,None,5945,2540,1.9,0,0
+267,2025-11-28,2025-12-04,ICU,Dr_5,13,Male,Diabetes,Emergency,Private,4582,3351,4.3,0,0
+268,2025-07-04,2025-07-18,Orthopedics,Dr_4,39,Female,Infection,Routine,Social Security,5091,4332,1.6,0,0
+269,2025-07-21,2025-08-01,Cardiology,Dr_17,68,Female,Stroke,Routine,Armed Forces,9212,4923,4.0,0,0
+270,2025-08-05,2025-08-08,Cardiology,Dr_8,15,Female,Heart Failure,Routine,Armed Forces,1604,1389,3.8,0,0
+271,2025-03-22,2025-03-24,Neurology,Dr_6,6,Female,Stroke,Emergency,Social Security,1180,587,3.8,0,0
+272,2025-07-02,2025-07-03,Internal Medicine,Dr_4,18,Male,Heart Failure,Routine,Armed Forces,7606,4877,1.0,0,1
+273,2025-07-08,2025-07-15,Surgery,Dr_6,49,Female,Heart Failure,Routine,Social Security,7371,5546,3.9,0,0
+274,2025-11-16,2025-11-30,Surgery,Dr_11,74,Male,Stroke,Routine,None,9350,5593,2.2,0,0
+275,2025-11-24,2025-12-01,Surgery,Dr_18,16,Male,Heart Failure,Routine,None,3777,2690,3.7,0,0
+276,2025-05-06,2025-05-11,ICU,Dr_5,57,Female,Infection,Routine,None,639,454,4.1,0,0
+277,2025-01-19,2025-01-25,Orthopedics,Dr_15,39,Female,Hypertension,Routine,Private,6840,2982,3.9,0,0
+278,2025-05-08,2025-05-14,Neurology,Dr_18,63,Female,Hypertension,Routine,Private,8144,3670,2.8,1,0
+279,2025-02-27,2025-03-04,Internal Medicine,Dr_9,49,Male,Hypertension,Routine,Armed Forces,2488,1231,3.4,0,0
+280,2025-01-02,2025-01-14,Surgery,Dr_7,91,Male,Infection,Emergency,Social Security,6809,6020,1.4,0,0
+281,2025-11-18,2025-12-02,Orthopedics,Dr_15,27,Female,Hypertension,Routine,None,3349,2518,3.3,0,0
+282,2025-09-15,2025-09-28,Cardiology,Dr_10,53,Male,Heart Failure,Routine,None,8119,7090,1.0,0,0
+283,2025-01-25,2025-02-07,Neurology,Dr_4,7,Male,Hypertension,Routine,Social Security,8975,6405,1.9,0,0
+284,2025-10-15,2025-10-21,Cardiology,Dr_18,27,Female,Diabetes,Emergency,Armed Forces,8867,6495,1.3,0,0
+285,2025-05-12,2025-05-25,Cardiology,Dr_19,92,Male,Heart Failure,Routine,Private,2926,2228,3.8,0,0
+286,2025-09-02,2025-09-09,ICU,Dr_14,69,Male,Diabetes,Emergency,Social Security,1634,1257,2.7,0,0
+287,2025-01-16,2025-01-18,Cardiology,Dr_18,38,Male,Heart Failure,Routine,Armed Forces,2129,1864,3.2,0,0
+288,2025-11-17,2025-11-24,Surgery,Dr_14,81,Male,Fracture,Routine,Social Security,1102,728,2.3,0,0
+289,2025-02-06,2025-02-15,Neurology,Dr_2,61,Female,Heart Failure,Routine,Private,2373,1883,2.7,0,0
+290,2025-02-06,2025-02-18,Orthopedics,Dr_11,58,Male,Fracture,Emergency,None,8197,6659,2.6,0,0
+291,2025-07-26,2025-07-27,Orthopedics,Dr_18,1,Female,Infection,Emergency,Social Security,9514,7197,1.3,0,0
+292,2025-04-19,2025-04-23,ICU,Dr_4,12,Female,Heart Failure,Routine,Armed Forces,1302,1045,2.0,0,0
+293,2025-12-10,2025-12-19,Neurology,Dr_4,49,Female,Diabetes,Routine,Social Security,3091,2487,2.3,1,0
+294,2025-04-19,2025-04-22,Orthopedics,Dr_5,42,Male,Hypertension,Emergency,None,7706,3829,4.0,0,0
+295,2025-10-12,2025-10-17,Internal Medicine,Dr_15,23,Male,Hypertension,Routine,Social Security,3200,2435,3.9,0,0
+296,2025-05-30,2025-06-05,Orthopedics,Dr_11,32,Female,Heart Failure,Emergency,Private,4884,2796,3.5,0,0
+297,2025-08-22,2025-09-03,Orthopedics,Dr_19,15,Female,Stroke,Routine,Armed Forces,7678,4013,3.2,0,0
+298,2025-01-19,2025-01-22,Neurology,Dr_18,13,Female,Hypertension,Routine,None,6818,5296,4.8,0,0
+299,2025-11-13,2025-11-26,Cardiology,Dr_17,71,Male,Fracture,Routine,Armed Forces,4890,2305,1.8,0,0
+300,2025-08-29,2025-09-12,Neurology,Dr_3,79,Male,Fracture,Emergency,Private,6814,2960,2.0,0,0
+301,2025-04-30,2025-05-08,Orthopedics,Dr_16,41,Male,Stroke,Emergency,Social Security,4404,2785,3.1,0,0
+302,2025-09-28,2025-10-01,Orthopedics,Dr_8,18,Male,Diabetes,Emergency,Private,4734,2072,2.9,0,0
+303,2025-12-01,2025-12-13,Neurology,Dr_13,79,Female,Fracture,Routine,Social Security,5280,3301,2.8,0,0
+304,2025-02-09,2025-02-20,Surgery,Dr_11,91,Female,Heart Failure,Routine,None,6126,3582,2.9,0,0
+305,2025-11-13,2025-11-21,ICU,Dr_5,45,Female,Diabetes,Routine,Armed Forces,5667,2455,3.7,0,0
+306,2025-03-12,2025-03-24,Orthopedics,Dr_17,16,Male,Heart Failure,Routine,Private,9980,5723,4.6,0,0
+307,2025-11-28,2025-12-08,Orthopedics,Dr_16,8,Female,Heart Failure,Emergency,Social Security,4016,3044,1.9,0,0
+308,2025-10-27,2025-11-07,Cardiology,Dr_2,50,Female,Heart Failure,Routine,Private,3778,2565,4.8,0,0
+309,2025-08-27,2025-08-30,Neurology,Dr_1,94,Male,Stroke,Routine,Private,3225,2496,1.9,0,0
+310,2025-07-26,2025-07-30,Orthopedics,Dr_20,84,Female,Hypertension,Routine,Social Security,8147,6358,2.9,0,0
+311,2025-04-06,2025-04-09,Orthopedics,Dr_18,48,Female,Hypertension,Routine,Armed Forces,6210,4214,3.1,0,0
+312,2025-03-18,2025-03-24,Surgery,Dr_1,54,Male,Infection,Emergency,None,6533,5372,4.6,1,0
+313,2025-03-02,2025-03-12,Surgery,Dr_15,16,Male,Fracture,Emergency,None,1974,1774,4.6,0,0
+314,2025-10-31,2025-11-05,Orthopedics,Dr_18,49,Female,Stroke,Emergency,Armed Forces,3350,1366,3.0,0,0
+315,2025-07-16,2025-07-21,Surgery,Dr_11,66,Female,Fracture,Routine,None,567,507,3.3,0,0
+316,2025-07-02,2025-07-14,Neurology,Dr_19,21,Female,Diabetes,Routine,Social Security,8376,6001,2.8,1,0
+317,2025-10-15,2025-10-26,Orthopedics,Dr_18,87,Male,Fracture,Routine,Armed Forces,3461,2011,3.8,0,0
+318,2025-12-05,2025-12-06,Internal Medicine,Dr_18,47,Male,Fracture,Routine,Private,7482,5234,1.1,0,0
+319,2025-02-12,2025-02-24,Orthopedics,Dr_6,3,Female,Diabetes,Routine,Social Security,1819,1457,3.3,0,0
+320,2025-01-26,2025-02-06,Surgery,Dr_20,8,Male,Diabetes,Emergency,None,8635,3863,3.5,0,0
+321,2025-08-23,2025-08-30,Surgery,Dr_9,35,Male,Stroke,Emergency,Social Security,1475,1226,3.5,1,0
+322,2025-04-05,2025-04-10,Internal Medicine,Dr_7,53,Male,Stroke,Routine,None,4305,1997,4.6,0,0
+323,2025-04-08,2025-04-10,Cardiology,Dr_20,50,Female,Diabetes,Emergency,Armed Forces,1594,805,1.6,1,0
+324,2025-10-23,2025-10-31,Surgery,Dr_14,64,Female,Fracture,Emergency,None,5915,2391,4.3,0,0
+325,2025-01-13,2025-01-17,Internal Medicine,Dr_18,64,Female,Infection,Routine,Armed Forces,2648,1284,3.8,0,0
+326,2025-07-11,2025-07-17,Orthopedics,Dr_3,44,Female,Stroke,Routine,Social Security,1789,1167,2.8,1,0
+327,2025-04-16,2025-04-21,Orthopedics,Dr_13,89,Female,Diabetes,Routine,None,6827,3972,3.7,0,0
+328,2025-06-16,2025-06-29,Internal Medicine,Dr_18,77,Female,Hypertension,Routine,None,3603,3043,3.7,0,0
+329,2025-02-17,2025-02-19,Surgery,Dr_8,13,Male,Hypertension,Routine,Private,6058,4539,3.3,0,0
+330,2025-04-05,2025-04-11,ICU,Dr_13,32,Male,Infection,Emergency,None,6639,4490,1.7,0,0
+331,2025-08-25,2025-08-31,Neurology,Dr_6,72,Male,Infection,Emergency,Private,3285,2797,2.0,1,0
+332,2025-03-17,2025-03-18,Neurology,Dr_20,89,Male,Hypertension,Emergency,Social Security,9518,7829,4.5,0,0
+333,2025-01-13,2025-01-26,Internal Medicine,Dr_20,77,Male,Infection,Emergency,Social Security,3485,2775,2.4,0,0
+334,2025-08-07,2025-08-20,Surgery,Dr_15,59,Male,Fracture,Routine,Social Security,7946,4336,3.8,0,0
+335,2025-10-13,2025-10-20,Orthopedics,Dr_18,13,Male,Fracture,Routine,None,7251,4262,2.4,0,0
+336,2025-07-20,2025-07-24,Neurology,Dr_20,30,Male,Hypertension,Routine,Private,3261,2565,5.0,0,0
+337,2025-07-27,2025-08-05,ICU,Dr_13,78,Male,Hypertension,Emergency,Armed Forces,4371,1856,1.7,0,0
+338,2025-07-09,2025-07-12,ICU,Dr_8,23,Female,Infection,Routine,Private,8350,6060,1.1,0,0
+339,2025-08-21,2025-08-22,ICU,Dr_19,66,Male,Heart Failure,Routine,Armed Forces,4822,2938,3.4,0,0
+340,2025-02-07,2025-02-14,Orthopedics,Dr_17,43,Female,Diabetes,Routine,Private,8038,5250,3.9,0,0
+341,2025-03-24,2025-04-03,Surgery,Dr_1,42,Female,Hypertension,Routine,None,6369,2798,4.8,0,0
+342,2025-05-17,2025-05-25,Orthopedics,Dr_13,25,Male,Diabetes,Emergency,None,8255,4428,2.9,0,0
+343,2025-12-26,2026-01-05,Surgery,Dr_16,15,Male,Stroke,Routine,None,8502,4651,2.6,0,0
+344,2025-12-06,2025-12-18,ICU,Dr_2,30,Male,Diabetes,Routine,None,7799,4343,4.3,0,0
+345,2025-10-21,2025-11-03,Internal Medicine,Dr_15,46,Male,Fracture,Routine,Private,8685,4776,3.2,1,0
+346,2025-10-30,2025-11-06,Neurology,Dr_3,86,Female,Heart Failure,Routine,Private,2487,1717,2.3,0,0
+347,2025-03-02,2025-03-07,Neurology,Dr_13,93,Male,Hypertension,Routine,Private,6509,4480,4.0,0,0
+348,2025-04-18,2025-04-30,Surgery,Dr_8,63,Female,Fracture,Emergency,None,4506,2191,4.9,0,0
+349,2025-07-03,2025-07-05,Internal Medicine,Dr_1,55,Female,Fracture,Routine,Social Security,7186,3063,1.6,0,0
+350,2025-12-01,2025-12-02,Neurology,Dr_16,8,Female,Hypertension,Emergency,Private,4617,2948,1.6,0,0
+351,2025-09-19,2025-09-22,Neurology,Dr_15,54,Male,Heart Failure,Routine,Armed Forces,7009,3443,2.2,1,0
+352,2025-02-27,2025-02-28,Cardiology,Dr_15,5,Female,Stroke,Emergency,Armed Forces,906,603,3.6,1,0
+353,2025-01-14,2025-01-28,Surgery,Dr_15,35,Male,Heart Failure,Routine,None,8066,5697,3.7,1,0
+354,2025-11-13,2025-11-26,Internal Medicine,Dr_13,70,Female,Infection,Emergency,Armed Forces,1573,712,2.6,0,0
+355,2025-08-08,2025-08-22,Neurology,Dr_2,31,Male,Infection,Emergency,Armed Forces,5024,2562,3.9,1,0
+356,2025-09-21,2025-09-28,Cardiology,Dr_16,30,Female,Infection,Routine,Social Security,4075,2576,4.1,0,0
+357,2025-06-22,2025-06-29,Cardiology,Dr_14,4,Male,Infection,Emergency,Private,9144,3694,2.0,0,0
+358,2025-07-21,2025-07-25,Surgery,Dr_3,11,Male,Hypertension,Routine,Armed Forces,9721,5469,2.6,0,0
+359,2025-08-02,2025-08-10,Orthopedics,Dr_16,11,Male,Heart Failure,Routine,Social Security,8201,3823,3.4,0,0
+360,2025-04-23,2025-05-04,Surgery,Dr_15,69,Male,Stroke,Routine,Private,9532,4676,4.1,0,0
+361,2025-01-25,2025-02-04,Orthopedics,Dr_9,25,Female,Heart Failure,Routine,Private,1217,927,1.3,0,0
+362,2025-08-02,2025-08-15,Cardiology,Dr_12,42,Female,Infection,Emergency,None,4292,2213,3.3,0,0
+363,2025-12-12,2025-12-18,Cardiology,Dr_12,60,Male,Stroke,Routine,Private,5086,2813,1.2,0,0
+364,2025-03-13,2025-03-20,Internal Medicine,Dr_12,13,Female,Heart Failure,Routine,Social Security,2402,1577,2.3,0,0
+365,2025-03-31,2025-04-04,Internal Medicine,Dr_5,30,Male,Infection,Routine,Social Security,3343,1421,4.5,0,0
+366,2025-08-16,2025-08-30,Cardiology,Dr_5,27,Male,Stroke,Routine,Social Security,6055,2910,2.1,0,0
+367,2025-09-29,2025-10-01,Orthopedics,Dr_13,19,Male,Diabetes,Emergency,Private,7608,6190,4.9,0,0
+368,2025-11-25,2025-12-02,Internal Medicine,Dr_9,32,Female,Diabetes,Routine,None,6882,5472,3.6,0,0
+369,2025-11-20,2025-12-03,Internal Medicine,Dr_19,94,Male,Heart Failure,Routine,Social Security,6429,4000,3.6,1,0
+370,2025-07-06,2025-07-10,Internal Medicine,Dr_17,16,Female,Infection,Emergency,Armed Forces,1661,1019,3.8,0,0
+371,2025-01-04,2025-01-11,ICU,Dr_1,75,Female,Hypertension,Routine,Social Security,8997,4739,4.1,0,0
+372,2025-04-18,2025-04-21,Cardiology,Dr_11,75,Male,Heart Failure,Emergency,Private,7053,3836,4.6,1,0
+373,2025-11-12,2025-11-18,Internal Medicine,Dr_10,60,Female,Hypertension,Routine,Social Security,2577,1517,3.6,0,0
+374,2025-08-25,2025-08-31,Surgery,Dr_9,80,Female,Diabetes,Routine,None,8876,7320,2.3,0,0
+375,2025-12-18,2025-12-27,Internal Medicine,Dr_2,65,Male,Stroke,Routine,Private,4309,3537,2.2,0,0
+376,2025-10-12,2025-10-24,Neurology,Dr_10,78,Male,Diabetes,Emergency,Private,2672,1101,4.7,0,0
+377,2025-02-05,2025-02-18,Neurology,Dr_4,56,Male,Hypertension,Routine,None,7689,5095,4.8,0,0
+378,2025-05-03,2025-05-14,Surgery,Dr_14,78,Female,Stroke,Emergency,Social Security,5560,4063,4.3,0,0
+379,2025-01-15,2025-01-27,Internal Medicine,Dr_2,5,Male,Heart Failure,Routine,None,9372,5907,2.2,0,0
+380,2025-09-02,2025-09-05,Orthopedics,Dr_8,13,Male,Stroke,Routine,Social Security,9476,6416,3.2,0,0
+381,2025-11-21,2025-12-03,ICU,Dr_20,44,Male,Heart Failure,Routine,Private,3278,1705,2.8,0,0
+382,2025-04-09,2025-04-13,Cardiology,Dr_15,1,Male,Diabetes,Routine,Private,2081,1314,3.4,0,0
+383,2025-07-07,2025-07-10,Internal Medicine,Dr_13,20,Male,Stroke,Routine,Armed Forces,6094,2801,3.9,0,0
+384,2025-07-07,2025-07-16,Neurology,Dr_13,86,Male,Heart Failure,Emergency,None,1999,1242,4.9,0,0
+385,2025-10-26,2025-11-08,Surgery,Dr_16,39,Male,Stroke,Routine,Armed Forces,1423,1118,1.9,0,0
+386,2025-10-21,2025-10-23,Orthopedics,Dr_20,42,Female,Hypertension,Routine,None,3846,2863,3.3,0,0
+387,2025-09-24,2025-10-01,Internal Medicine,Dr_11,51,Male,Fracture,Emergency,None,8333,6543,4.7,1,0
+388,2025-02-23,2025-03-04,Orthopedics,Dr_11,92,Female,Hypertension,Emergency,Armed Forces,9790,8471,2.3,0,0
+389,2025-02-23,2025-03-08,Orthopedics,Dr_3,30,Female,Hypertension,Emergency,Private,7508,4902,2.4,0,0
+390,2025-08-05,2025-08-08,Orthopedics,Dr_20,38,Female,Hypertension,Routine,Private,1006,734,1.5,0,0
+391,2025-11-02,2025-11-08,ICU,Dr_12,53,Female,Diabetes,Emergency,None,6606,3759,1.8,0,0
+392,2025-06-27,2025-07-06,Surgery,Dr_4,50,Female,Heart Failure,Routine,None,4886,2238,4.6,0,0
+393,2025-01-16,2025-01-19,Internal Medicine,Dr_5,17,Male,Infection,Routine,Armed Forces,9250,7723,3.0,0,0
+394,2025-03-07,2025-03-19,Cardiology,Dr_7,1,Male,Diabetes,Routine,Private,6911,5627,1.7,0,0
+395,2025-03-27,2025-03-30,Orthopedics,Dr_5,30,Male,Diabetes,Routine,Social Security,9816,6000,4.1,0,0
+396,2025-09-03,2025-09-08,ICU,Dr_11,62,Male,Diabetes,Routine,Social Security,9535,7696,1.5,0,0
+397,2025-07-29,2025-08-10,ICU,Dr_12,59,Male,Diabetes,Routine,Armed Forces,921,468,3.4,0,0
+398,2025-01-22,2025-01-24,Cardiology,Dr_16,14,Male,Stroke,Routine,Armed Forces,3743,3247,3.5,0,0
+399,2025-08-03,2025-08-08,Surgery,Dr_10,39,Female,Fracture,Emergency,Armed Forces,6173,3343,1.7,0,0
+400,2025-01-06,2025-01-18,Neurology,Dr_19,67,Female,Diabetes,Emergency,None,3170,2622,1.0,0,0
+401,2025-01-16,2025-01-29,Orthopedics,Dr_13,71,Male,Infection,Routine,Private,4067,2037,3.2,0,0
+402,2025-07-27,2025-08-10,ICU,Dr_18,12,Male,Hypertension,Routine,Private,6331,3471,3.1,0,0
+403,2025-06-20,2025-06-26,Surgery,Dr_14,28,Female,Heart Failure,Emergency,Social Security,6149,5312,1.2,0,0
+404,2025-05-17,2025-05-25,Cardiology,Dr_16,67,Female,Infection,Routine,None,7735,3778,1.5,0,0
+405,2025-05-28,2025-06-03,Cardiology,Dr_10,45,Female,Stroke,Emergency,Private,9541,7620,3.5,0,0
+406,2025-11-05,2025-11-15,Neurology,Dr_12,88,Male,Hypertension,Routine,Armed Forces,7393,6511,3.4,0,0
+407,2025-03-17,2025-03-24,ICU,Dr_19,28,Male,Stroke,Routine,Social Security,6479,4961,4.8,0,0
+408,2025-06-17,2025-06-23,Orthopedics,Dr_16,28,Female,Heart Failure,Routine,Private,1866,1276,1.0,0,0
+409,2025-10-09,2025-10-17,Orthopedics,Dr_19,64,Male,Heart Failure,Routine,None,6540,3953,2.4,0,0
+410,2025-08-13,2025-08-18,Internal Medicine,Dr_18,88,Male,Heart Failure,Routine,Private,5514,3074,1.2,0,0
+411,2025-09-02,2025-09-15,Neurology,Dr_13,49,Male,Stroke,Emergency,Social Security,8466,4215,1.2,0,0
+412,2025-02-27,2025-03-01,ICU,Dr_6,6,Male,Heart Failure,Routine,None,8988,5825,1.5,0,0
+413,2025-01-19,2025-01-21,Neurology,Dr_13,35,Female,Hypertension,Emergency,Social Security,6579,4442,3.0,0,0
+414,2025-08-14,2025-08-27,Orthopedics,Dr_19,73,Male,Diabetes,Emergency,Private,5318,3753,1.7,0,0
+415,2025-12-11,2025-12-24,Cardiology,Dr_6,48,Male,Diabetes,Routine,Social Security,8736,6062,1.9,0,0
+416,2025-11-25,2025-11-29,ICU,Dr_4,81,Female,Heart Failure,Routine,Social Security,1691,1241,2.8,0,0
+417,2025-09-15,2025-09-28,Neurology,Dr_10,61,Male,Hypertension,Routine,None,3072,1257,2.3,0,0
+418,2025-09-24,2025-09-27,Neurology,Dr_12,37,Female,Stroke,Routine,None,7965,6607,3.0,0,0
+419,2025-04-13,2025-04-21,Cardiology,Dr_19,69,Male,Hypertension,Emergency,None,1674,992,2.6,0,0
+420,2025-01-13,2025-01-23,Orthopedics,Dr_3,58,Male,Diabetes,Emergency,None,1231,619,4.0,0,0
+421,2025-11-14,2025-11-22,ICU,Dr_12,55,Male,Infection,Emergency,Private,3932,2300,3.6,0,0
+422,2025-05-24,2025-05-30,Cardiology,Dr_16,83,Female,Hypertension,Emergency,Social Security,4827,3891,4.5,0,0
+423,2025-01-06,2025-01-14,Neurology,Dr_17,46,Female,Heart Failure,Routine,Armed Forces,1413,1232,2.2,0,0
+424,2025-07-08,2025-07-22,Neurology,Dr_7,94,Male,Heart Failure,Routine,None,7590,6650,4.1,0,1
+425,2025-06-06,2025-06-14,Surgery,Dr_3,7,Male,Hypertension,Routine,Private,1835,1327,1.4,0,0
+426,2025-10-25,2025-10-30,Neurology,Dr_9,59,Male,Hypertension,Routine,Social Security,9381,5637,4.9,1,0
+427,2025-04-09,2025-04-13,Neurology,Dr_17,24,Female,Diabetes,Routine,Private,7937,5837,2.3,0,0
+428,2025-02-19,2025-02-23,Orthopedics,Dr_15,77,Male,Diabetes,Routine,None,8443,6311,3.3,1,0
+429,2025-09-26,2025-09-27,Internal Medicine,Dr_14,93,Female,Diabetes,Routine,Social Security,9237,5399,1.1,0,0
+430,2025-01-14,2025-01-22,Neurology,Dr_3,16,Female,Diabetes,Routine,Armed Forces,4935,3015,2.8,0,0
+431,2025-03-26,2025-04-02,ICU,Dr_7,89,Male,Fracture,Routine,None,2005,1550,2.5,0,0
+432,2025-07-04,2025-07-06,Orthopedics,Dr_2,55,Male,Infection,Routine,Social Security,8956,6062,3.9,1,0
+433,2025-08-04,2025-08-08,Surgery,Dr_1,28,Female,Hypertension,Routine,None,3653,1594,5.0,0,0
+434,2025-12-28,2026-01-05,Cardiology,Dr_13,43,Male,Fracture,Routine,Armed Forces,9771,6960,4.1,0,0
+435,2025-12-20,2025-12-30,Cardiology,Dr_10,7,Female,Infection,Emergency,Social Security,4279,3827,4.5,0,0
+436,2025-10-12,2025-10-17,Surgery,Dr_15,76,Female,Heart Failure,Emergency,Private,3021,1730,2.3,0,0
+437,2025-03-06,2025-03-12,Surgery,Dr_3,62,Female,Fracture,Routine,None,740,346,4.2,0,0
+438,2025-01-31,2025-02-14,Cardiology,Dr_17,38,Female,Hypertension,Routine,None,2659,2006,1.5,0,0
+439,2025-10-18,2025-10-20,Neurology,Dr_6,37,Male,Heart Failure,Routine,Social Security,2416,1018,4.4,0,0
+440,2025-06-17,2025-06-27,Internal Medicine,Dr_10,64,Male,Hypertension,Routine,Armed Forces,3395,1554,4.9,0,0
+441,2025-06-11,2025-06-25,Orthopedics,Dr_16,71,Female,Heart Failure,Routine,Private,9696,5785,2.2,0,0
+442,2025-10-15,2025-10-24,Neurology,Dr_6,83,Female,Infection,Routine,Armed Forces,8820,4214,4.8,0,0
+443,2025-01-27,2025-02-06,Neurology,Dr_5,61,Female,Diabetes,Emergency,Armed Forces,7764,3272,3.5,0,0
+444,2025-02-04,2025-02-07,ICU,Dr_9,23,Male,Heart Failure,Routine,Armed Forces,2960,1400,4.2,0,0
+445,2025-09-27,2025-10-01,Cardiology,Dr_2,30,Female,Fracture,Routine,Social Security,3065,1771,2.7,1,0
+446,2025-11-03,2025-11-15,Orthopedics,Dr_17,64,Female,Heart Failure,Routine,Private,4651,3224,2.5,0,0
+447,2025-03-30,2025-04-06,Cardiology,Dr_1,75,Female,Hypertension,Routine,Armed Forces,7087,2924,1.3,0,0
+448,2025-04-30,2025-05-01,Cardiology,Dr_9,68,Male,Hypertension,Emergency,None,5323,4553,3.3,0,0
+449,2025-07-02,2025-07-15,ICU,Dr_18,42,Female,Stroke,Routine,Private,651,286,1.8,0,0
+450,2025-05-12,2025-05-14,Surgery,Dr_12,9,Male,Heart Failure,Routine,Social Security,7662,5891,4.5,0,0
+451,2025-06-03,2025-06-13,Cardiology,Dr_3,66,Male,Diabetes,Routine,None,8353,7357,4.0,0,0
+452,2025-12-29,2025-12-30,Internal Medicine,Dr_4,7,Female,Infection,Routine,None,9357,5442,4.4,0,0
+453,2025-09-23,2025-09-29,Neurology,Dr_7,92,Female,Stroke,Emergency,Social Security,3011,1787,1.9,0,0
+454,2025-06-10,2025-06-20,Surgery,Dr_20,68,Male,Diabetes,Routine,Private,3692,2367,4.2,0,0
+455,2025-09-26,2025-10-10,Cardiology,Dr_16,40,Female,Diabetes,Routine,Armed Forces,3441,2144,2.3,0,0
+456,2025-05-10,2025-05-14,Surgery,Dr_12,40,Female,Stroke,Routine,Armed Forces,1799,1374,2.4,0,0
+457,2025-07-11,2025-07-15,Internal Medicine,Dr_19,71,Female,Heart Failure,Emergency,Armed Forces,777,352,4.4,0,0
+458,2025-03-10,2025-03-21,Cardiology,Dr_5,23,Male,Fracture,Emergency,Armed Forces,642,394,1.8,0,0
+459,2025-05-29,2025-06-07,Neurology,Dr_3,14,Male,Infection,Routine,Private,5017,4158,3.1,0,0
+460,2025-05-02,2025-05-03,Surgery,Dr_1,12,Male,Stroke,Emergency,Private,9654,5323,2.5,0,0
+461,2025-07-16,2025-07-19,Cardiology,Dr_2,6,Female,Fracture,Routine,Armed Forces,1141,525,1.1,0,0
+462,2025-09-07,2025-09-18,Internal Medicine,Dr_16,8,Female,Fracture,Routine,Social Security,1239,617,3.6,0,0
+463,2025-05-29,2025-06-10,ICU,Dr_1,26,Female,Infection,Emergency,None,9169,7944,2.3,0,0
+464,2025-05-25,2025-05-28,Surgery,Dr_10,72,Male,Infection,Routine,Private,8933,3855,2.8,0,0
+465,2025-08-08,2025-08-17,Cardiology,Dr_10,52,Female,Diabetes,Routine,Armed Forces,1255,1027,4.2,0,0
+466,2025-12-09,2025-12-22,ICU,Dr_2,18,Male,Hypertension,Routine,None,6418,2712,2.8,0,0
+467,2025-04-20,2025-05-04,Orthopedics,Dr_12,53,Female,Stroke,Routine,Private,2635,1867,4.9,0,0
+468,2025-10-23,2025-11-01,Surgery,Dr_16,65,Female,Diabetes,Emergency,None,6853,4302,1.7,0,0
+469,2025-07-01,2025-07-14,Surgery,Dr_12,2,Male,Stroke,Routine,Social Security,5878,4855,4.4,0,0
+470,2025-10-09,2025-10-19,Orthopedics,Dr_9,32,Male,Fracture,Routine,Armed Forces,3659,2096,4.6,0,0
+471,2025-06-27,2025-07-07,Internal Medicine,Dr_3,15,Female,Stroke,Routine,Social Security,1259,1075,1.8,0,0
+472,2025-05-31,2025-06-13,Neurology,Dr_17,91,Male,Fracture,Emergency,None,6472,4105,2.4,1,0
+473,2025-06-08,2025-06-13,ICU,Dr_9,12,Male,Infection,Routine,None,8575,5068,4.3,0,0
+474,2025-11-29,2025-12-06,Cardiology,Dr_14,75,Female,Infection,Emergency,Social Security,3165,2038,1.9,0,0
+475,2025-11-03,2025-11-13,Neurology,Dr_19,54,Male,Diabetes,Emergency,None,7020,3634,4.7,0,0
+476,2025-08-03,2025-08-15,Surgery,Dr_9,61,Male,Diabetes,Routine,Private,4181,3348,1.9,0,0
+477,2025-09-17,2025-09-30,Internal Medicine,Dr_10,80,Female,Stroke,Emergency,Private,7922,4929,2.5,0,0
+478,2025-09-08,2025-09-19,Cardiology,Dr_7,90,Male,Infection,Routine,Private,5451,3770,1.3,0,0
+479,2025-08-03,2025-08-05,Orthopedics,Dr_15,31,Male,Heart Failure,Routine,Armed Forces,5067,2358,4.6,0,0
+480,2025-01-27,2025-01-31,Internal Medicine,Dr_3,86,Male,Infection,Routine,Private,5073,3008,2.9,0,0
+481,2025-11-08,2025-11-12,Orthopedics,Dr_20,79,Male,Stroke,Emergency,Social Security,7711,3870,2.2,0,0
+482,2025-02-14,2025-02-16,Internal Medicine,Dr_20,52,Male,Fracture,Emergency,Social Security,6849,3181,1.7,0,0
+483,2025-11-21,2025-11-28,Neurology,Dr_7,69,Female,Diabetes,Emergency,Armed Forces,3539,2274,4.9,0,0
+484,2025-04-02,2025-04-03,Neurology,Dr_17,9,Male,Fracture,Emergency,Private,3649,1795,2.9,0,0
+485,2025-03-04,2025-03-07,Neurology,Dr_14,62,Male,Heart Failure,Routine,Private,4055,2761,2.0,0,0
+486,2025-03-12,2025-03-22,Orthopedics,Dr_20,20,Female,Infection,Routine,Social Security,8783,7583,1.6,0,0
+487,2025-04-03,2025-04-06,Neurology,Dr_3,42,Male,Heart Failure,Emergency,Armed Forces,1907,1438,3.9,0,0
+488,2025-06-21,2025-07-04,Orthopedics,Dr_19,77,Male,Hypertension,Emergency,Private,4552,2895,4.8,0,0
+489,2025-02-11,2025-02-21,ICU,Dr_15,2,Male,Infection,Routine,Social Security,814,544,1.9,0,0
+490,2025-03-22,2025-03-29,Internal Medicine,Dr_6,25,Male,Infection,Routine,None,8215,3684,1.2,0,0
+491,2025-11-21,2025-11-23,Cardiology,Dr_17,30,Female,Heart Failure,Emergency,Social Security,5676,4166,4.6,0,0
+492,2025-07-07,2025-07-20,Surgery,Dr_13,76,Female,Hypertension,Emergency,Social Security,918,631,3.0,0,0
+493,2025-04-13,2025-04-25,Surgery,Dr_7,49,Male,Diabetes,Routine,Private,7694,5797,4.7,0,0
+494,2025-02-07,2025-02-18,ICU,Dr_14,72,Male,Heart Failure,Routine,Social Security,7154,4940,3.1,0,0
+495,2025-07-23,2025-07-25,Internal Medicine,Dr_6,55,Female,Hypertension,Routine,Social Security,6878,3346,1.2,1,0
+496,2025-10-25,2025-10-31,Cardiology,Dr_2,74,Male,Infection,Routine,Social Security,7023,6232,2.0,0,0
+497,2025-09-09,2025-09-20,Cardiology,Dr_6,45,Female,Heart Failure,Emergency,None,5098,3303,3.7,0,0
+498,2025-01-03,2025-01-09,Surgery,Dr_12,93,Female,Hypertension,Routine,None,8521,7469,4.5,0,0
+499,2025-02-21,2025-02-27,Cardiology,Dr_9,91,Male,Heart Failure,Emergency,Private,8390,5080,4.9,1,0
+500,2025-12-23,2025-12-31,Internal Medicine,Dr_8,77,Female,Infection,Routine,Armed Forces,1187,662,3.6,0,0
